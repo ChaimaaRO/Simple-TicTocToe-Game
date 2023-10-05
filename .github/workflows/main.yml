@@ -23,7 +23,7 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: skatouch/tictactoegame
+          image: chaimaaro/githubactiontest1
           tags: 3.0
           registry: docker.io
           dockerfile: Dockerfile
